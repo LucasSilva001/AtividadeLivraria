@@ -9,16 +9,16 @@
     <link rel="stylesheet" href=".//style.css">
     
 </head>
-<body style="height: 100%vh">
-  <div id="Img">
-    <h3>Paders</h3>
-  </div>
-    <div class="row" style="height: 100%; justify-content: center; margin-top: 5%;">
-        <div class="col-6" style="border: 2px solid #510D0A; height: 525px; width: 40%; margin-bottom: 50px;">
+<body style="height: 100vh">
+  <div id="fundo-cadastro"></div>
+  <div id="conteudo">
+    <div class="row" id="tabela-cadastro" >
+        <div class="col-6" id="box">
+          <h2 id="nome">Livraria Desejo</h2>
           <form class="row g-3">
             <div>
               <hr>
-              <h3 style="text-align: center;">Criar nova conta</h3>
+              <h5 style="text-align: center;">Criar nova conta</h5>
               <hr>
           </div>
             <div class="col-md-6">
@@ -39,17 +39,17 @@
             </div>
             <div class="col-md-2">
               <label for="inputZip" class="form-label">Dia</label>
-              <input type="date" class="form-control" id="inputZip">
+              <input type="number" class="form-control" id="inputZip">
             </div>
             
             <div class="col-md-2">
               <label for="inputZip" class="form-label">Mês</label>
-              <input type="date" class="form-control" id="inputZip">
+              <input type="number" class="form-control" id="inputZip">
             </div>
 
             <div class="col-md-2">
               <label for="inputZip" class="form-label">Ano</label>
-              <input type="date" class="form-control" id="inputZip">
+              <input type="number" class="form-control" id="inputZip">
             </div>
 
             <div class="col-md-4">
@@ -68,8 +68,6 @@
           </form>
       </div>
     </div>
-        
-</div>
-
+  </div>
 </body>
 </html>

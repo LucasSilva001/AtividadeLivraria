@@ -6,6 +6,10 @@
         overflow-x: hidden;
     }
 
+    a {
+        text-decoration: none;
+    }
+
     #fundo-cadastro, #fundo-atividade {
         background-repeat: no-repeat;
         left: 0;
@@ -48,6 +52,17 @@
         margin-top: 8%;
         padding: 5px;
     }
+
+    #botao-logar {
+        width: 100px; 
+        margin-top: 5%;
+        background-color: #1D3557;
+    }
+
+    .cadastro-retorno{
+        display: flex;
+    }
+
 
     #conteudo {
         display: flex;
@@ -472,6 +487,22 @@
         padding: 5px;
     }
 
+    #botao-logar {
+        width: 100px; 
+        margin-top: 5%;
+        background-color: #1D3557;
+    }
+
+    .cadastro-retorno{
+        display: flex;
+    }
+
+    #anuncio {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: -12px;
+    }
+
     #conteudo {
         display: flex;
         flex-direction: column;
@@ -875,6 +906,22 @@
         width: 40%; 
         margin-top: 8%;
         padding: 5px;
+    }
+
+    #botao-logar {
+        width: 100px; 
+        margin-top: 5%;
+        background-color: #1D3557;
+    }
+
+    .cadastro-retorno{
+        display: flex;
+    }
+
+    #anuncio {
+        width: 100%;
+        margin-top: 15px;
+        margin-bottom: -12px;
     }
 
     #conteudo {
